@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+/* ===== common css ====== */
+.title{
+    font-size: 18px;
+    color: #fe7d32;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+.all-btn{
+    background-color: #ff7214;
+    color: white;
+    font-weight: 500;
+    padding: 10px 50px;
+    border-radius: 50px;
+    border: none;
+}
+.sec-title{
+    color: #112e41;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+
+
+
+
+/* ====== Header =========== */
+.nav-link{
+    color: #323541 !important;
+    font-size: 15px !important;
+    font-weight: 400;
+    margin-left: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.header-area{
+    background-color: #f7f7f7;
+}
+.banner-heading{
+    font-size: 60px;
+    font-weight: bold;
+    color: #112e41;
+}
+.banner-text{
+    font-size: 15px;
+    color: #888888;
+    font-family: 'Roboto', sans-serif
+    fon
+}
+
+
+
+
+
+
+/* ============ Feature section ============= */
+.feature-section{
+    margin: 130px 0;
+}
+.card{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border: none;
+}
+.card-title{
+    color: #233646 !important;
+    font-size: 22px !important;
+    font-weight: 600;
+    text-align: center;
+}
+.card-text{
+    color: #888888 !important;
+    font-size: 14px !important;
+    text-align: center;
+}
+
+/* =========== count section ============= */
+.count-section{
+    background-color: #162b45;
+    color: white !important;
+    width: 100%;
+    margin: 0 auto !important;
+}
+.count-num{
+    font-size: 60px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif
+}
+.count-text{
+    font-size: 20px;
+    font-weight: bold;
+}
+.fa-heart , .fa-comment-alt{
+color: #fe7d32;
+margin-right: 10px;
+}
+
+.blog-section{
+    margin-top: 150px;
+}
+.team-section{
+    margin-top: 120px !important;
+}
+.contact {
+    color: #888888 !important;
+}
+.contact-section{
+    margin-top: 150px;
+    margin-bottom: 130px;
+}
+.contact-section h2{
+    color: #112e41;
+}
+form input,textarea {
+    border-radius: 0 !important;
+    color: #999999 !important;
+    font-size: 14px !important;
+    padding: 10px !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+/* ========= Footer ====== */
+.page-footer{
+    background-color: #162b45;
+    margin-top: 130px;
+    font-size: 15px;
+}
+.page-footer p {
+    color: #999999 !important;
+    font-family: 'Roboto', sans-serif;
+}
+.page-footer ul li{
+    margin-top: 10px;
+}
+.page-footer ul li a{
+    text-decoration: none;
+    color: #999999 !important;
+}
+.footer-copyright{
+    background-color: #10233a;
+}
+.bablu{
+    color: #fe7d32;
+}
+.about-section{
+    margin: 200px 0;
+    /* overflow-x: hidden; */
+ 
+
+}
+
+.about-img-two{
+    position: relative;
+    margin-top: -70px;
+    margin-left: 20px;
+}
+.about-img-two h2{
+    font-size: 35px !important;
+    color: #233646;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.work h2{
+    color: #112e41 ;
+    font-size: 30px;
+    font-weight: bold;
+}
+.work p{
+    color: #888888;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+.work a {
+    color: #112e41;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+}
+.work .row{
+    margin-top: 70px !important;
+}
+
+button.carousel-control-prev,.carousel-control-next {
+    background-color: #ff7214;
+    height: 20px;
+    width: 20px;
+    margin: auto 0;
+    border-radius: 50px;
+}
+.testimonial{
+    margin: 170px 0;
+}
+
+@media only screen and (max-width: 600px) {
+    .banner-heading{
+        font-size: 30px;
+    }
+    .about-img-two h2{
+        font-size: 18px !important;
+    }
+    .about-section {
+        padding: 10px;
+    }
+    .about-section .sec-title {
+        font-size: 27px;
+    }
+    .sec-title {
+        font-size: 30px;
+    }
+
+    .about-desc{
+        padding: 10px !important;
+    }
+    .work-section .col-6{
+        width: 100% !important;
+    }
+  }
